@@ -1,4 +1,4 @@
 // HEADER FILE FOR PRINTING FUNCTION DECLARATION
 #include <stdio.h>
-
-void printingSentence(void);
+#include "integerTest1_1.h"
+void printingSentence(void)
