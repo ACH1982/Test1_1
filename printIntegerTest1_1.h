@@ -1,0 +1,1 @@
+void printInteger(int integerQuantity);
