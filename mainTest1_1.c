@@ -1,14 +1,18 @@
 // Method calling the functionallity
 // Comment to track on git
-#include "printTest1_1.h"
+#include "printCharacterTest1_1.h"
+#include "printIntegerTest1_1.h"
 #include <stdio.h>
-#include <string.h>
 
 int main()
 {
     // Printing title
     char generalTitle[] = "-Title-";
-    //char generalTitle = "Title"; 
-    printingSentence(generalTitle);
+    printCharacter(generalTitle);
+    // Printing age
+    int age;
+    printf("Introduce your age: ");
+    scanf("%d", &age);
+    printInteger(age);
     return 0;
 }

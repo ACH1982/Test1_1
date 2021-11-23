@@ -5,8 +5,8 @@
 # MACROS
 CC = gcc
 CFLAGS = -I.
-DEPS = printTest1_1.h
-OBJ = mainTest1_1.o printTest1_1.o
+DEPS = printCharacterTest1_1.h printIntegerTest1_1.h
+OBJ = mainTest1_1.o printCharacterTest1_1.o printIntegerTest1_1.o
 # Object files depends on source files (.c) and header files (macro DEPS)
 %.o: %.c $(DEPS)
 # Object files are generated according the command gcc -c
